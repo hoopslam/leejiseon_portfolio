@@ -9,4 +9,3 @@ function Infographics() {
 }
 
 export default Infographics
-Infographics

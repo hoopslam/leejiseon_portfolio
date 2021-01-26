@@ -9,4 +9,3 @@ function Animations() {
 }
 
 export default Animations
-Animations

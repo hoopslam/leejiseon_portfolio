@@ -2,15 +2,15 @@ import React from "react";
 
 function Nav() {
   return (
-    <div>
-      <h1>Lee Ji Seon</h1>
-      <ul>
-        <li>Animations</li>
-        <li>Illustrations</li>
-        <li>Infographics</li>
-        <li>About</li>
-      </ul>
-    </div>
+    <nav>
+      <h1 className="title">LEE JI SEON</h1>
+      <div className="menu">
+          <div className="menu-item">Animation</div>
+          <div className="menu-item">Illustration</div>
+          <div className="menu-item">Infographic</div>
+          <div className="menu-item">About</div>
+      </div>
+    </nav>
   );
 }
 

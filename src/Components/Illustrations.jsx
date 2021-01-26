@@ -9,4 +9,3 @@ function Illustrations() {
 }
 
 export default Illustrations
-Illustrations

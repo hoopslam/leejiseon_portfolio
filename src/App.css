@@ -1,6 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Assistant', sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 570px;
+  height: 20px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.menu-item:hover {
+  border-bottom: 1px solid blue; 
+  cursor: pointer;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.home {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.hero {
+  height: auto;
+  max-width: 990px;
+  margin: auto;
+}
+
+.hero img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 500px);
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item img {
+  width: 500px;
+}
+
+@media (max-width: 730px) {
+  .home {
+    width: 100%;
+  }
 }
