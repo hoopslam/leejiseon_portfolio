@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
 
+:root {
+  --primary: rgb(80, 80, 80);
+  --secondary: blue;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -26,18 +31,18 @@
   font-weight: 100;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
 .menu-item:hover {
-  border-bottom: 1px solid blue; 
+  border-bottom: 2px solid var(--secondary); 
   cursor: pointer;
 }
 
 .title:hover {
   cursor: pointer;
-}
-
-.home {
-  width: 80%;
-  max-width: 1200px;
 }
 
 .hero {
@@ -52,9 +57,13 @@
   object-fit: contain;
 }
 
+.grid-container {
+  width: 100vw;
+  max-width: 1080px;
+}
+
 .grid {
   display: grid;
-  width: 100%;
   justify-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 500px);
@@ -64,10 +73,4 @@
 
 .grid-item img {
   width: 500px;
-}
-
-@media (max-width: 730px) {
-  .home {
-    width: 100%;
-  }
 }

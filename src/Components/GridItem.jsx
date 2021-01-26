@@ -3,7 +3,7 @@ import React from 'react'
 function GridItem({image}) {
     return (
         <div className="grid-item">
-            <img src={image} alt="image"/>
+            <img src={image} alt="img-thumbnail"/>
         </div>
     )
 }
