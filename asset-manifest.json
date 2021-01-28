@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/leejiseon_portfolio/static/css/main.56351d4c.chunk.css",
-    "main.js": "/leejiseon_portfolio/static/js/main.a96f888b.chunk.js",
-    "main.js.map": "/leejiseon_portfolio/static/js/main.a96f888b.chunk.js.map",
+    "main.js": "/leejiseon_portfolio/static/js/main.b9682978.chunk.js",
+    "main.js.map": "/leejiseon_portfolio/static/js/main.b9682978.chunk.js.map",
     "runtime-main.js": "/leejiseon_portfolio/static/js/runtime-main.15343f37.js",
     "runtime-main.js.map": "/leejiseon_portfolio/static/js/runtime-main.15343f37.js.map",
     "static/js/2.c6696fb3.chunk.js": "/leejiseon_portfolio/static/js/2.c6696fb3.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.15343f37.js",
     "static/js/2.c6696fb3.chunk.js",
     "static/css/main.56351d4c.chunk.css",
-    "static/js/main.a96f888b.chunk.js"
+    "static/js/main.b9682978.chunk.js"
   ]
 }
