@@ -58,6 +58,7 @@ nav a {
 }
 
 .grid-container {
+  margin-top: 50px;
   width: 100vw;
   max-width: 1080px;
 }
@@ -68,7 +69,7 @@ nav a {
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 500px);
   grid-template-rows: 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .grid-item img {
