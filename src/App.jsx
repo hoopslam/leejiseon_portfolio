@@ -5,11 +5,11 @@ import Infographics from "./Components/Infographics";
 import About from "./Components/About";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (
-    <Router basename='/leejiseon_portfolio'>
+    <Router basename='/'>
       <div className="App">
         <Nav />
         <Switch>
