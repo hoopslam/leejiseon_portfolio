@@ -1,6 +1,5 @@
 import React from 'react'
 import GridItem from './GridItem'
-// import Hero from './Hero'
 import img1 from '../image/img1.gif'
 import img2 from '../image/img2.gif'
 import img3 from '../image/img3.gif'
@@ -13,22 +12,19 @@ import img9 from '../image/img9.gif'
 
 function Home() {
     return (
-        <div>
-            {/* <Hero /> */}
             <div className="grid-container">
                 <div className="grid">
-                    <GridItem image={img1}/>
-                    <GridItem image={img2}/>
-                    <GridItem image={img3}/>
-                    <GridItem image={img4}/>
-                    <GridItem image={img5}/>
-                    <GridItem image={img6}/>
-                    <GridItem image={img7}/>
-                    <GridItem image={img8}/>
-                    <GridItem image={img9}/>
+                    <GridItem image={img1} description={"Jisun Jisun"}/>
+                    <GridItem image={img2} description={"Jisun Jisun"}/>
+                    <GridItem image={img3} description={"Jisun Jisun"}/>
+                    <GridItem image={img4} description={"Jisun Jisun"}/>
+                    <GridItem image={img5} description={"Jisun Jisun"}/>
+                    <GridItem image={img6} description={"Jisun Jisun"}/>
+                    <GridItem image={img7} description={"Jisun Jisun"}/>
+                    <GridItem image={img8} description={"Jisun Jisun"}/>
+                    <GridItem image={img9} description={"Jisun Jisun"}/>
                 </div>
             </div>
-        </div>
     )
 }
 
