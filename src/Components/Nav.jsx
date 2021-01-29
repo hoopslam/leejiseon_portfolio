@@ -5,7 +5,7 @@ function Nav() {
 
   return (
     <nav>
-      <NavLink to="/"><h1 className="title">LEE JI SEON</h1></NavLink>
+      <NavLink activeClassName="disabled" exact to="/"><h1 className="title">LEE JI SEON</h1></NavLink>
       <div className="menu">
         <NavLink activeClassName="active" exact to="/"><div className="menu-item">Animations</div></NavLink>
         <NavLink activeClassName="active" exact to="/illustrations"><div className="menu-item">Illustrations</div></NavLink>

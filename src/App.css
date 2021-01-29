@@ -2,7 +2,7 @@
 
 :root {
   --primary: rgb(80, 80, 80);
-  --secondary: blue;
+  --secondary: rgb(0, 183, 255);
 }
 
 .App {
@@ -25,10 +25,10 @@
 .menu {
   display: flex;
   justify-content: space-evenly;
-  width: 600px;
+  width: 500px;
   height: 20px;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 nav a {
@@ -37,34 +37,18 @@ nav a {
 }
 
 .active {
-  border-bottom: 2px solid var(--primary); 
+  border-bottom: 1px solid var(--secondary); 
   cursor: pointer;
+  color: var(--secondary);
 }
-
-/* .menu-item:hover {
-  border-bottom: 2px solid var(--primary); 
-  cursor: pointer;
-} */
 
 .title:hover {
   cursor: pointer;
 }
 
-.hero {
-  height: auto;
-  max-width: 990px;
-  margin: auto;
-}
-
-.hero img {
-  max-height: 600px;
-  width: 100%;
-  object-fit: contain;
-}
-
 .grid-container {
   margin-top: 50px;
-  width: 100vw;
+  width: 100%;
   max-width: 1080px;
 }
 
@@ -101,7 +85,7 @@ nav a {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 500px;
+  width: 100%;
   height: 100%;
   z-index: 100;
 }
@@ -126,10 +110,4 @@ nav a {
 .footer-container {
   color: var(--primary);
   margin: 30px;
-}
-
-@media (max-width: 600px) {
-  .menu {
-    width: 100vw;
-  }
 }
